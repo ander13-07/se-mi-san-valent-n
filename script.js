@@ -55,7 +55,7 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
- imgCat.src = `img/cat-${C:\Users\ander\OneDrive\Escritorio\imgCat}.jpg`;
+ imgCat.src = `img/cat-${https://raw.githubusercontent.com/namdosanwannabe/be-my-valentine/bec4a9f74ea6148f77d8d639f61aef165663af78/img/cat-1.jpg}.jpg`;
 }
 
 function updateNoButtonText() {
