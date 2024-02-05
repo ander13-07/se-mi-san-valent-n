@@ -42,12 +42,12 @@ function resizeYesButton() {
 
 function generateMessage(noCount) {
   const messages = [
-    "No",
-    "estas segura?",
-    "porfis",
-    "no seas asi :(",
-    "lastimas mi corazón",
-    "voy a chillar...",
+   "No",
+   "estas segura?",
+   "porfis",
+   "no seas asi :(",
+   "lastimas mi corazón",
+   "voy a chillar...",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
@@ -55,7 +55,7 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
-  catImg.src = Img/cat`${https://raw.githubusercontent.com/namdosanwannabe/be-my-valentine/bec4a9f74ea6148f77d8d639f61aef165663af78/img/cat-1.jpg, https://raw.githubusercontent.com/namdosanwannabe/be-my-valentine/bec4a9f74ea6148f77d8d639f61aef165663af78/img/cat-2.jpg, https://raw.githubusercontent.com/namdosanwannabe/be-my-valentine/bec4a9f74ea6148f77d8d639f61aef165663af78/img/cat-3.jpg, https://raw.githubusercontent.com/namdosanwannabe/be-my-valentine/bec4a9f74ea6148f77d8d639f61aef165663af78/img/cat-4.jpg, https://raw.githubusercontent.com/namdosanwannabe/be-my-valentine/bec4a9f74ea6148f77d8d639f61aef165663af78/img/cat-5.jpg}.jpg`;
+  catImg.src = `img/cat-${image}.jpg`;
 }
 
 function updateNoButtonText() {
