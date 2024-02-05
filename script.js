@@ -55,7 +55,7 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
- imgCat.src = `https://raw.githubusercontent.com/namdosanwannabe/be-my-valentine/bec4a9f74ea6148f77d8d639f61aef165663af78/img/cat-1.jpg`;
+ imgCat.src = ``img/cat-${image}.jpg`;
 }
 
 function updateNoButtonText() {
