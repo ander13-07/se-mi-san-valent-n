@@ -55,7 +55,7 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
-  catImg.src = `img/cat-${image}.jpg`;
+  catImg.src = `img/cat-${https://raw.githubusercontent.com/namdosanwannabe/be-my-valentine/bec4a9f74ea6148f77d8d639f61aef165663af78/img/cat-1.jpg, https://raw.githubusercontent.com/namdosanwannabe/be-my-valentine/bec4a9f74ea6148f77d8d639f61aef165663af78/img/cat-2.jpg, https://raw.githubusercontent.com/namdosanwannabe/be-my-valentine/bec4a9f74ea6148f77d8d639f61aef165663af78/img/cat-3.jpg, https://raw.githubusercontent.com/namdosanwannabe/be-my-valentine/bec4a9f74ea6148f77d8d639f61aef165663af78/img/cat-4.jpg, https://raw.githubusercontent.com/namdosanwannabe/be-my-valentine/bec4a9f74ea6148f77d8d639f61aef165663af78/img/cat-5.jpg}.jpg`;
 }
 
 function updateNoButtonText() {
