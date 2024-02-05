@@ -55,7 +55,7 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
-  imgCat.src = `img/cat-${image}.jpg`;
+ imgCat.src = `img/cat-${"C:\Users\ander\OneDrive\Escritorio\imgCat"}.jpg`;
 }
 
 function updateNoButtonText() {
