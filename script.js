@@ -45,8 +45,8 @@ function generateMessage(noCount) {
     "No",
     "estas segura?",
     "Porfiiis",
-    "no me hagas esto...",
-    "lastimas mi corazón",
+    "daleee...",
+    "no seas grosera...",
     "voy a llorar...",
   ];
 
