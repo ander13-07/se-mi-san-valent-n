@@ -4,7 +4,7 @@ const titleElement = document.querySelector(".title");
 const buttonsContainer = document.querySelector(".buttons");
 const yesButton = document.querySelector(".btn--yes");
 const noButton = document.querySelector(".btn--no");
-const imgCat = document.querySelector(".cat-img");
+const catImg = document.querySelector(".cat-img");
 
 const MAX_IMAGES = 5;
 
@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Yayyy!!";
+  titleElement.innerHTML = "Yayyy!! :3";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -42,12 +42,12 @@ function resizeYesButton() {
 
 function generateMessage(noCount) {
   const messages = [
-   "No",
-   "estas segura?",
-   "porfis",
-   "no seas asi :(",
-   "lastimas mi corazón",
-   "voy a chillar...",
+    "No",
+    "estas segura?",
+    "Porfiiis",
+    "no me hagas esto...",
+    "lastimas mi corazón",
+    "voy a llorar...",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
@@ -55,7 +55,7 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
- imgCat.src = ``img/cat-${image}.jpg`;
+  catImg.src = `img/cat-${image}.jpg`;
 }
 
 function updateNoButtonText() {
