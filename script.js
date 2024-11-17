@@ -44,10 +44,10 @@ function generateMessage(noCount) {
   const messages = [
     "No",
     "estas segura?",
-    "Porfiiis",
+    "Porfitas",
     "daleee...",
-    "no seas grosera...",
-    "voy a llorar...",
+    "no seas grosera",
+    "deci que si...",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
